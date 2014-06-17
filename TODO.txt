@@ -1,0 +1,23 @@
+Parser TODO:
+============
+
+* parser options, e.g.:
+    node parser md json/core.json -o "hello:hi,bye:hi"
+    
+    -> Passed to parser.parseOptions(options)
+    -> Result: in program.options
+
+
+* Type: external
+    {
+        "type": "core>Vector"
+    }
+    
+    Would create a link to the Vector class docs.
+
+* Escaped external (e.g.: ingored external): start with \ (backslash):
+    {
+        "type": "\Vector"
+    }
+    
+    Would NOT (try to) import the Vector file. (normally tries to import external)
