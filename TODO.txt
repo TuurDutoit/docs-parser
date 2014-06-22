@@ -21,3 +21,15 @@ Parser TODO:
     }
     
     Would NOT (try to) import the Vector file. (normally tries to import external)
+
+
+
+* List import:
+    If the imported file contains an array (and the source string is in an array), import the elements of the external array into the source array.
+    e.g.:
+        source: [element0, "somefile"] and somefile: [element1, element2, element3]
+        then source would become: [element0, element1, element2, element3]
+
+
+* Remember constructors:
+    Remember constructors, so types can be referenced with just the name of the constructor (instead of the whole external)
