@@ -45,7 +45,7 @@ var parser = exports.parser = function(json, context, utils) {
 			utils.parseInherit(json);
 		}
 		if(context.program.include && json.include) {
-			utils.mergeInclude(json.include, json, context.basePath);
+			utils.mergeInclude(json.include, json, context.basepath);
 		}
 
 	//Title
