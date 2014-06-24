@@ -33,3 +33,11 @@ Parser TODO:
 
 * Remember constructors:
     Remember constructors, so types can be referenced with just the name of the constructor (instead of the whole external)
+
+
+* Private properties
+    {
+        private: true
+    }
+    
+    would make the property private, adding a 'private' notice to the labels.
