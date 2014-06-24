@@ -1,6 +1,8 @@
 Parser TODO:
 ============
 
+* Replace tabs with spaces
+
 * parser options, e.g.:
     node parser md json/core.json -o "hello:hi,bye:hi"
     
@@ -41,3 +43,9 @@ Parser TODO:
     }
     
     would make the property private, adding a 'private' notice to the labels.
+
+
+* Max. number of parent levels to show
+
+
+* Do not show parent of constructors (for properties of that constructor)
