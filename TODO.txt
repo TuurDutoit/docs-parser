@@ -61,3 +61,9 @@ Parser TODO:
 	parent: {"description": "+ Shorthand for Bar", "include": "child"}   and child: {"description": "Something."}
 	
 	the result would be: {"description": "Something. Shorthand for Bar"}
+
+
+* Option for common parent directory
+	node parser md plugins/json/assets/xhr/xhr-assets.json -P plugins
+	
+	would result in the xhr-assets.json file being parsed and the result being placed in plugins/md/assets/xhr/xhr-assets.md
