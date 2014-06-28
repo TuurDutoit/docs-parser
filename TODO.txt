@@ -52,3 +52,6 @@ Parser TODO:
 
 
 * Events
+
+
+* Arguments for callback functions (functions as argument to another function)
