@@ -55,3 +55,9 @@ Parser TODO:
 
 
 * Arguments for callback functions (functions as argument to another function)
+
+
+* For includes: add to the included field with a '+'
+	parent: {"description": "+ Shorthand for Bar", "include": "child"}   and child: {"description": "Something."}
+	
+	the result would be: {"description": "Something. Shorthand for Bar"}
